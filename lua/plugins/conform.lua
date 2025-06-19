@@ -12,8 +12,7 @@ return {
 			},
 			formatters_by_ft = {
 				lua = { "prettier" },
-
-				-- Fix common misspellings in source code on all filetypes
+				nix = { 'nixpkgs_fmt' },
 				["*"] = { "codespell" },
 			},
 		})
